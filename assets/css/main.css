@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #C4CFDE;
+}
+
+body {
+  background-color: #212428;
+  color: #C4CFDE;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.highlight-text {
+  color: #FF014F;
+}
+
+.navbar .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #C4CFDE;
+}
+.navbar .nav-item .nav-link.active {
+  color: white;
+}
+.navbar .navbar-brand {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/logo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner .social a {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.4s;
+}
+.banner .social a:hover {
+  color: white;
+  transform: translateY(-3px);
+}
+.banner .skills li {
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.banner .thumbnail {
+  position: relative;
+}
+.banner .thumbnail::before {
+  position: absolute;
+  z-index: -1;
+  width: 80%;
+  height: calc(100% - 130px);
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background: black;
+  box-shadow: black;
+  border-radius: 6px;
+}
+
+.features .contain-feature {
+  position: relative;
+}
+.features .contain-feature:hover .feature .read-more {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+}
+.features .contain-feature:hover .feature .read-more svg {
+  height: auto;
+}
+.features .contain-feature:hover .feature > * {
+  transform: translateY(0px);
+}
+.features .contain-feature .feature {
+  background-color: black;
+  border-radius: 5px;
+}
+.features .contain-feature .feature > * {
+  transform: translateY(20px);
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+.features .contain-feature .feature .title {
+  font-size: 24px;
+}
+.features .contain-feature .feature .read-more {
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+  transform: 0.4s;
+}
+.features .contain-feature .feature .read-more svg {
+  height: 0;
+}
+.features .contain-feature .feature-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.portfoilio .contain-item .item {
+  background-color: black;
+  border-radius: 5px;
+}
+.portfoilio .contain-item .item .title {
+  font-size: 23px;
+  line-height: 1.25;
+}
+.portfoilio .contain-item .item .title a {
+  transition: 0.4s;
+}
+.portfoilio .contain-item .item .title a svg {
+  height: 0;
+  transition: 0.4s;
+  color: #FF014F;
+}
+.portfoilio .contain-item .item .title:hover a {
+  color: #FF014F;
+}
+.portfoilio .contain-item .item .title:hover a svg {
+  height: 23px;
+}
+.portfoilio .contain-item .item .type {
+  font-size: 12px;
+}
+.portfoilio .contain-item .item .like {
+  font-size: 13px;
+}
+.portfoilio .contain-item .item .like svg {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.portfoilio .contain-item .item .like svg:hover {
+  fill: #FF014F;
+}
+.portfoilio .contain-item .item .thumbnail {
+  border-radius: 5px;
+}
+.portfoilio .contain-item .item .thumbnail a {
+  overflow: hidden;
+  display: block;
+  border-radius: 5px;
+}
+.portfoilio .contain-item .item .thumbnail a img {
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  transition: 0.4s;
+}
+.portfoilio .contain-item:hover .item .thumbnail img {
+  transform: scale(1.1);
+}
+
+.resume .tabs {
+  background-color: black;
+  border-radius: 10px;
+}
+.resume .tabs .tab {
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: 400;
+}
+.resume .tabs .tab.active {
+  color: #FF014F;
+}
+.resume .tabs .tab:hover {
+  color: #FF014F;
+}
+/*# sourceMappingURL=main.css.map */
