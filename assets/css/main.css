@@ -41,7 +41,6 @@ body {
   border-radius: 100%;
   width: 70px;
   height: 70px;
-  background-image: url("../images/logo.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -193,5 +192,126 @@ body {
 }
 .resume .tabs .tab:hover {
   color: #FF014F;
+}
+.resume .contents-tab {
+  transition: 0.4s;
+}
+.resume .contents-tab .contents .contain-items {
+  border-left: 5px solid black;
+  padding-left: 3rem;
+  z-index: 1;
+}
+.resume .contents-tab .contents .contain-items .item {
+  margin: 4rem 0;
+  padding: 1rem;
+  border: 1px solid rgb(34, 34, 34);
+  background-color: rgb(34, 34, 34);
+  position: relative;
+  transition: 0.4s;
+  z-index: 2;
+}
+.resume .contents-tab .contents .contain-items .item::after {
+  content: "";
+  height: 5px;
+  width: 2.7rem;
+  background-color: black;
+  position: absolute;
+  top: 3rem;
+  left: -2.7rem;
+}
+.resume .contents-tab .contents .contain-items .item::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border: 5px solid black;
+  border-radius: 100%;
+  position: absolute;
+  top: 2.5rem;
+  left: calc(-2.7rem - 18.7px);
+  z-index: -1;
+  background-color: #212428;
+  transition: 0.4s;
+}
+.resume .contents-tab .contents .contain-items .item:hover::before {
+  background-color: #FF014F;
+}
+.resume .contents-tab .contents .contain-items .item:hover {
+  background-color: black;
+}
+.resume .contents-tab .contents .contain-items .item:hover .desc {
+  opacity: 1;
+}
+.resume .contents-tab .contents .contain-items .item .desc {
+  opacity: 0.7;
+  transition: 0.4s;
+}
+.resume .contents-tab.hide {
+  opacity: 0;
+  height: 0 !important;
+  margin: 0 !important;
+}
+.resume .contents-tab.active {
+  opacity: 1;
+}
+.resume .contents-tab .contain-skills .skill .progress {
+  border-radius: 1000px;
+  height: 8px;
+  overflow: visible;
+  width: 90%;
+}
+.resume .contents-tab .contain-skills .skill .progress .progress-bar {
+  background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+  position: relative;
+  border-radius: 1000px;
+  overflow: visible;
+}
+.resume .contents-tab .contain-skills .skill .progress .progress-bar label {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 14px;
+}
+.resume .contents-tab .contain-skills .skill span {
+  font-size: 12px;
+}
+.resume .contents-tab .contain-skills.active .progress-bar.w-75 {
+  width: 75%;
+  visibility: visible;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-name: increseWidth;
+          animation-name: increseWidth;
+}
+@-webkit-keyframes increseWidth {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes increseWidth {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.resume .contents-tab .contain-skills.active .progress-bar.w-100 {
+  width: 100%;
+  visibility: visible;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-name: increseWidth;
+          animation-name: increseWidth;
 }
 /*# sourceMappingURL=main.css.map */

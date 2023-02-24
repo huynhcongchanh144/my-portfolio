@@ -48,7 +48,6 @@ body {
         border-radius: 100%;
         width: 70px;
         height: 70px;
-        background-image: url('../images/logo.jpeg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -223,6 +222,129 @@ body {
             }
             &:hover {
                 color: $highlight-color
+            }
+        }
+    }
+
+    .contents-tab {
+        .contents {
+            .contain-items {
+                border-left: 5px solid black;
+                padding-left: 3rem;
+                z-index: 1;
+                .item {
+                    margin: 4rem 0;
+                    padding: 1rem;
+                    border: 1px solid rgb(34, 34, 34);
+                    background-color: rgb(34, 34, 34);
+                    position: relative;
+                    transition: .4s;
+                    z-index: 2;
+
+                    &::after {
+                        content: "";
+                        height: 5px;
+                        width: 2.7rem;
+                        background-color: black;
+                        position: absolute;
+                        top: 3rem;
+                        left: -2.7rem
+                    }
+
+                    &::before {
+                        content: "";
+                        height: 20px;
+                        width: 20px;
+                        border: 5px solid black;
+                        border-radius: 100%;
+                        position: absolute;
+                        top: 2.5rem;
+                        left: calc(-2.7rem - 18.7px);
+                        z-index: -1;
+                        background-color: $background-color;
+                        transition: .4s;
+                    }
+                    &:hover::before {
+                        background-color: $highlight-color;
+                    }
+                    &:hover {
+                        background-color: black;
+                        .desc {
+                            opacity: 1;
+                        }
+                    }
+
+                    .desc {
+                        opacity: 0.7;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+
+        transition: .4s;
+        &.hide {
+            opacity: 0;
+            height: 0 !important;
+            margin: 0 !important;
+        }
+        &.active {
+            opacity: 1;
+        }
+
+        .contain-skills {
+            .skill {
+                .progress {
+                    border-radius: 1000px;
+                    height: 8px;
+                    overflow: visible;
+                    width: 90%;
+                    .progress-bar {
+                        background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+                        position: relative;
+                        border-radius: 1000px;
+                        overflow: visible;
+                        label {
+                            position: absolute;
+                            right: 0;
+                            top: -20px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                span {
+                    font-size: 12px;
+                }
+            }
+
+            &.active {
+                .progress-bar {
+                    &.w-75 {
+                        width: 75%;
+                        visibility: visible;
+                        animation-duration: 0.8s;
+                        animation-delay: 0.3s;
+                        animation-name: increseWidth;
+                    }
+                    @keyframes increseWidth {
+                        0% {
+                            opacity: 0;
+                            transform: translate3d(-100%, 0, 0)
+                        }
+                        100% {
+                            opacity: 1;
+                            transform: none
+                        }
+                    }
+
+                    &.w-100 {
+                        width: 100%;
+                        visibility: visible;
+                        animation-duration: 0.8s;
+                        animation-delay: 0.3s;
+                        animation-name: increseWidth;
+                    }
+                }
             }
         }
     }
