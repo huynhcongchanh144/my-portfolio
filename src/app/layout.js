@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import './assets/scss/main.scss'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -11,7 +12,7 @@ export default function RootLayout({ children }) {
         <div className='container'>
             <Header />
             {children}
-            <Footer />
+            {/* <Footer /> */}
         </div>
       </body>
     </html>

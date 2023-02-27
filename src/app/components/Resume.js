@@ -14,32 +14,32 @@ export default function Resume() {
             <span className="highlight-text text-center">2+ YEARS OF EXPERIENCE</span>
             <h2 className="title text-center">My Resume</h2>
             <div className="row tabs">
-                <div className={`tab col ${tab == 'edu' ? 'active' : ''}`} onClick={() => changeTab('edu')}>
+                <div className={`tab col-12 col-lg-3 ${tab == 'edu' ? 'active' : ''}`} onClick={() => changeTab('edu')}>
                     Education
                 </div>
-                <div className={`tab col ${tab == 'skill' ? 'active' : ''}`} onClick={() => changeTab('skill')}>
+                <div className={`tab col-12 col-lg-3 ${tab == 'skill' ? 'active' : ''}`} onClick={() => changeTab('skill')}>
                     Professional Skills
                 </div>
-                <div className={`tab col ${tab == 'exp' ? 'active' : ''}`} onClick={() => changeTab('exp')}>
+                <div className={`tab col-12 col-lg-3 ${tab == 'exp' ? 'active' : ''}`} onClick={() => changeTab('exp')}>
                     Experience
                 </div>
-                <div className={`tab col ${tab == 'inter' ? 'active' : ''}`} onClick={() => changeTab('inter')}>
+                <div className={`tab col-12 col-lg-3 ${tab == 'inter' ? 'active' : ''}`} onClick={() => changeTab('inter')}>
                     Interview
                 </div>
             </div>
 
             <div className={`row contents-tab my-5 ${tab == 'edu' ? 'active' : 'hide'}`}>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">2007 - 2010</span>
                     <h4 className="fw-bold fs-2">Education Quality</h4>
                     <div className="contain-items mt-5">
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -49,11 +49,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -63,11 +63,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -77,17 +77,17 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">2007 - 2010</span>
                     <h4 className="fw-bold fs-2">Job Experience</h4>
                     <div className="contain-items mt-5">
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -97,11 +97,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -111,11 +111,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -128,7 +128,7 @@ export default function Resume() {
             </div>
 
             <div className={`row contents-tab my-5 justify-content-between ${tab == 'skill' ? 'active' : 'hide'}`}>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">Features</span>
                     <h4 className="fw-bold fs-2">Development Skill</h4>
                     <div className={`contain-skills mt-3 ${tab == 'skill' ? 'active' : ''}`}>
@@ -182,7 +182,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">Features</span>
                     <h4 className="fw-bold fs-2">Design Skill</h4>
                     <div className={`contain-skills mt-3 ${tab == 'skill' ? 'active' : ''}`}>
@@ -239,17 +239,17 @@ export default function Resume() {
             </div>
 
             <div className={`row contents-tab my-5 ${tab == 'exp' ? 'active' : 'hide'}`}>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">2007 - 2010</span>
                     <h4 className="fw-bold fs-2">Education Quality</h4>
                     <div className="contain-items mt-5">
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -259,11 +259,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -273,11 +273,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -287,17 +287,17 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">2007 - 2010</span>
                     <h4 className="fw-bold fs-2">Job Experience</h4>
                     <div className="contain-items mt-5">
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -307,11 +307,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -321,11 +321,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -338,17 +338,17 @@ export default function Resume() {
             </div>
 
             <div className={`row contents-tab my-5 ${tab == 'inter' ? 'active' : 'hide'}`}>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">2007 - 2010</span>
                     <h4 className="fw-bold fs-2">Company Experience</h4>
                     <div className="contain-items mt-5">
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -358,11 +358,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -372,11 +372,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -386,17 +386,17 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div className="col-6 contents">
+                <div className="col-lg-6 col-12 mb-5 mb-lg-0 contents">
                     <span className="highlight-text">2007 - 2010</span>
                     <h4 className="fw-bold fs-2">Education Quality</h4>
                     <div className="contain-items mt-5">
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -406,11 +406,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">
@@ -420,11 +420,11 @@ export default function Resume() {
                         </div>
                         <div className="item">
                             <div className="row mx-0 justify-content-between align-items-center">
-                                <div className="title-item col-10">
+                                <div className="title-item col-lg-10 col-12">
                                     <h4 className="fw-bold">Personal Portfolio April Fools</h4>
                                     <span>University of DVI (1997 - 2001)</span>
                                 </div>
-                                <span className="highlight-text col-2">4.30/5</span>
+                                <span className="highlight-text col-lg-2 col-12 pt-3 pt-lg-0">4.30/5</span>
                             </div>
                             <div className="row mx-0 py-5">
                                 <p className="col-12 desc">

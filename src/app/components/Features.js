@@ -7,7 +7,7 @@ export default function Features() {
             <span className="highlight-text col-12">FEATURES</span>
             <h2 className="title col-12">What I Do</h2>
             <div className="row mx-0 justify-content-between px-0">
-                <div className="col-4 contain-feature">
+                <div className="col-lg-4 col-12 py-2 py-lg-0 contain-feature">
                     <div className="feature p-5">
                         <div className="icon mb-3"><FiMenu size="2rem" /></div>
                         <div className="content">
@@ -20,7 +20,7 @@ export default function Features() {
                     </div>
                     <a href="#" className="feature-link"></a>
                 </div>
-                <div className="col-4 contain-feature">
+                <div className="col-lg-4 col-12 py-2 py-lg-0 contain-feature">
                     <div className="feature p-5">
                         <div className="icon mb-3"><FiMenu size="2rem" /></div>
                         <div className="content">
@@ -33,7 +33,7 @@ export default function Features() {
                     </div>
                     <a href="#" className="feature-link"></a>
                 </div>
-                <div className="col-4 contain-feature">
+                <div className="col-lg-4 col-12 py-2 py-lg-0 contain-feature">
                     <div className="feature p-5">
                         <div className="icon mb-3"><FiMenu size="2rem" /></div>
                         <div className="content">

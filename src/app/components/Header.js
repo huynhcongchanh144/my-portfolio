@@ -29,9 +29,9 @@ export default function Header() {
                 <li className="nav-item">
                     <a className="nav-link" href="#">Pricing</a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a className="nav-link" href="#">Blog</a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <a className="nav-link" href="#">Contact</a>
                 </li>
