@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import './assets/scss/main.css'
+import '../../assets/css/main.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
